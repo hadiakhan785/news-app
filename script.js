@@ -1,6 +1,6 @@
 function initiaize(){
     $.ajax({
-        url:`http://newsapi.org/v2/everything?sources=techradar&apiKey=79c794b797384c589d86219fff3b24d5`,
+        url:`https://newsapi.org/v2/everything?sources=techradar&apiKey=79c794b797384c589d86219fff3b24d5`,
 
         success: function(data){
             
